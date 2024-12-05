@@ -110,7 +110,7 @@ The format is based on Keep a Changelog, and this project adheres to Semantic Ve
 - P2P: Avoid infinite loop when looking for peers in small networks.
 - Fixed another rollback bug due to a context deadline.
 - Fix checkpoint sync bug on holesky. [pr](https://github.com/prysmaticlabs/prysm/pull/14689)
-
+- Fix slashing pool behavior to enforce MaxAttesterSlashings limit in Electra version.
 
 ### Security
 
